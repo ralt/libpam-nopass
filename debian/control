@@ -1,0 +1,12 @@
+Source: libpam-nopass
+Section: unknown
+Priority: optional
+Maintainer: Florian Margaine <florian@margaine.com>
+Build-Depends: debhelper (>= 9), autotools-dev
+Standards-Version: 3.9.6
+
+Package: libpam-nopass
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpam-runtime (>= 1.0.1-6)
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
